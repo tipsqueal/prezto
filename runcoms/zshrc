@@ -14,6 +14,8 @@ fi
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/code
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3.4
+export SUBLIME=subl
+export EDITOR="$SUBLIME --wait"
 export PATH=/usr/local/git/bin:$PATH
 export PATH=$PATH:/Library/PostgreSQL/9.3/bin/
 
